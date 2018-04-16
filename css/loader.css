@@ -1,0 +1,19 @@
+/* CSS Document */
+#sabian-loader {
+    background: #fff;
+    color: transparent;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-indent: 0px;
+    z-index: 99991;
+}
+.sabian-loader-cont {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+    top: 50%;
+}
+

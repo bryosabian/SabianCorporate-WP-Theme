@@ -1,0 +1,76 @@
+.sabian_map_controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#sabian_map_search {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#sabian_map_search:focus {
+  border-color: #4d90fe;
+}
+/* Marker Edit form */
+.marker-edit label{display:block;margin-bottom: 5px;}
+.marker-edit label span {width: 100px;float: left;}
+.marker-edit label input, .marker-edit label select{height: 24px;}
+.marker-edit label textarea{height: 60px;}
+.marker-edit label input, .marker-edit label select, .marker-edit label textarea {width: 60%;margin:0px;padding-left: 5px;border: 1px solid #DDD;border-radius: 3px;}
+
+/* Marker Info Window */
+h1.marker-heading{color: #585858;margin: 0px;padding: 0px;font: 18px "Trebuchet MS", Arial;border-bottom: 1px dotted #D8D8D8;}
+div.marker-info-win {max-width: 300px;margin-right: -20px;}
+div.marker-info-win p{padding: 0px;margin: 10px 0px 10px 0;}
+div.marker-inner-win{padding: 5px;}
+button.save-marker, button.remove-marker{border: none;background: rgba(0, 0, 0, 0);color: #00F;padding: 0px;text-decoration: underline;margin-right: 10px;cursor: pointer;
+}
+
+.sabian_map{
+	height:480px;	
+}
+
+@media (max-width:768px){
+	.sabian_map{
+		height:380px;	
+	}
+}
+.map_window_image{
+	
+	height:100px;
+	
+	width:100px !important;	
+}
+.map_window_image img{
+	
+	height:100px;
+	
+	width:100px !important;	
+}
+@media (max-width:768px){
+	
+	.map_window_image img{
+		
+		width:100% !important;	
+}	
+}
+.map_window_body{
+	
+	/*width:150px !important;	*/
+}
+.sabian_map_window{
+	
+	width:240px !important;
+}
